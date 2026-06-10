@@ -1,0 +1,7 @@
+Model,Accuracy,F1_Macro
+Logistic Regression,0.2087,0.2078
+XGBoost,0.2079,0.2062
+Multinomial Naive Bayes,0.2071,0.2045
+Random Forest,0.2008,0.1886
+LightGBM,0.1882,0.1881
+BiLSTM + GloVe,0.2015748031496063,0.1742153782699056
