@@ -1,5 +1,12 @@
+# Hugging Face checkpoints
+models/distilbert/checkpoints/
+
+# Data
 data/raw/
+
+# Embeddings
 embeddings/glove.6B.100d.txt
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
