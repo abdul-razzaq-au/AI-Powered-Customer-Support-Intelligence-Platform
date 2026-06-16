@@ -1,4 +1,9 @@
 # AI-Powered Customer Support Intelligence Platform
+![Python](https://img.shields.io/badge/Python-3.11-blue)
+![FastAPI](https://img.shields.io/badge/FastAPI-Backend-green)
+![Docker](https://img.shields.io/badge/Docker-Containerized-blue)
+![MLflow](https://img.shields.io/badge/MLflow-Experiment%20Tracking-orange)
+![SHAP](https://img.shields.io/badge/Explainability-SHAP-red)
 
 An end-to-end Machine Learning platform that automates customer support ticket analysis using Natural Language Processing (NLP), classical Machine Learning, Explainable AI (SHAP), and API deployment.
 
@@ -272,8 +277,10 @@ FastAPI Application
         |
 Cloud Deployment
 
-(Hugging Face Spaces / Render)
-```
+(Hugging Face Spaces)
+
+Live API:
+https://armaaz-ai-powered-customer-support-intelligence-platform.hf.space/docs
 
 ---
 
@@ -305,7 +312,12 @@ AI-Powered-Customer-Support-Intelligence-Platform
 │   └── app/
 │       ├── main.py
 │       ├── model_loader.py
-│       ├── pipelines/
+│       ├── priority_pipeline.py
+│       ├── regression_pipeline.py
+│       ├── distilbert_pipeline.py
+│       ├── feature_engineering.py
+│       ├── text_preprocessing.py
+│       ├── schemas.py
 │       └── requirements.txt
 │
 └── README.md
@@ -318,7 +330,7 @@ AI-Powered-Customer-Support-Intelligence-Platform
 Clone repository:
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/abdul-razzaq-au/AI-Powered-Customer-Support-Intelligence-Platform.git
 
 cd AI-Powered-Customer-Support-Intelligence-Platform
 ```
