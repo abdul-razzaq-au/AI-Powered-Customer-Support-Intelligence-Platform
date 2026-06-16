@@ -286,7 +286,7 @@ https://armaaz-ai-powered-customer-support-intelligence-platform.hf.space/docs
 
 # Project Structure
 
-```
+<pre>
 AI-Powered-Customer-Support-Intelligence-Platform
 
 │
@@ -321,7 +321,7 @@ AI-Powered-Customer-Support-Intelligence-Platform
 │       └── requirements.txt
 │
 └── README.md
-```
+</pre>
 
 ---
 
